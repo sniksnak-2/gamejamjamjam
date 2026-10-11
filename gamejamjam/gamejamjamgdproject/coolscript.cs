@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class coolscript : Node2D
+public partial class CoolScript : Node2D
 {
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
