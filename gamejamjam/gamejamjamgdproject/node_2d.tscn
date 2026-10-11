@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://1w8k4ipji0j" path="res://Assets/banaaa.png" id="4_4d7sh"]
 [ext_resource type="Texture2D" uid="uid://bpel5aijchw7e" path="res://Assets/awtermelen.png" id="5_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://dfuq2cvbws3fn" path="res://Assets/stawrbr.png" id="6_hqns4"]
+[ext_resource type="Script" uid="uid://b2p1u0syghv8" path="res://SelectColumnScript.cs" id="7_d21ai"]
 
 [node name="Node2D" type="Node2D" unique_id=330939512]
 
@@ -44,4 +45,50 @@ offset_right = 908.0
 offset_bottom = 206.0
 text = "GAMBA!!!"
 
-[connection signal="pressed" from="Button" to="SlotsA" method="ButtonHandler"]
+[node name="Select Column" type="Node2D" parent="." unique_id=897627615]
+script = ExtResource("7_d21ai")
+
+[node name="Column 1" type="Button" parent="Select Column" unique_id=1367868]
+offset_left = 144.0
+offset_top = 98.0
+offset_right = 205.0
+offset_bottom = 157.0
+text = "1"
+
+[node name="Column 2" type="Button" parent="Select Column" unique_id=1996018828]
+offset_left = 258.0
+offset_top = 99.0
+offset_right = 313.0
+offset_bottom = 160.0
+text = "2"
+
+[node name="Column 3" type="Button" parent="Select Column" unique_id=750613279]
+offset_left = 363.0
+offset_top = 98.0
+offset_right = 417.0
+offset_bottom = 160.0
+text = "3"
+
+[node name="Start" type="Button" parent="Select Column" unique_id=1469470981]
+offset_left = 874.0
+offset_top = 9.0
+offset_right = 983.0
+offset_bottom = 66.0
+text = "Start
+"
+
+[node name="Clear" type="Button" parent="Select Column" unique_id=889112448]
+offset_left = 1001.0
+offset_top = 8.0
+offset_right = 1132.0
+offset_bottom = 65.0
+text = "Clear
+"
+
+[connection signal="pressed" from="Button" to="Select Column" method="skfjdhskdfjhskdfjhslkfjhslkfjhsdlkfjhslkfjhslkfjdhslkfjhslfkjh"]
+[connection signal="pressed" from="Select Column/Column 1" to="Select Column" method="Choose1"]
+[connection signal="pressed" from="Select Column/Column 2" to="Select Column" method="Choose2"]
+[connection signal="pressed" from="Select Column/Column 3" to="Select Column" method="Choose3"]
+[connection signal="pressed" from="Select Column/Start" to="Select Column" method="StartPlacing"]
+[connection signal="pressed" from="Select Column/Clear" to="SlotsA" method="ButtonHandlerClear"]
+[connection signal="pressed" from="Select Column/Clear" to="Select Column" method="Clear"]
