@@ -1,10 +1,21 @@
 using Godot;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 
 public partial class slotsA : Node2D
 {
+    public List<string> slots = new List<string> { "null", "null", "null", "null", "null", "null", "null", "null", "null" };
+    
+
     List<Sprite2D> DeleteSprites = new List<Sprite2D> { };
+    public List<string> ListAdd(string input, int slot) 
+    {
+        GD.Print("testing");
+        slots[slot] = input;
+        return slots; 
+    } 
 	public override void _Ready()
 	{
 		GD.Print("Hello World");
@@ -94,7 +105,6 @@ public partial class slotsA : Node2D
 	{
      
         Godot.RandomNumberGenerator rng = new Godot.RandomNumberGenerator();
-        List<string> slots = new List<string> {"null", "null", "null", "null", "null", "null", "null", "null", "null" };
 		List<string> slotReturn = SlotsList(slots);
         List<string> slotsColumn1 = slotReturn.GetRange(0, 3);
         List<string> slotsColumn2 = slotReturn.GetRange(3, 3);

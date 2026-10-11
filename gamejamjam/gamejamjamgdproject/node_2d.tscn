@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://1w8k4ipji0j" path="res://Assets/banaaa.png" id="4_4d7sh"]
 [ext_resource type="Texture2D" uid="uid://bpel5aijchw7e" path="res://Assets/awtermelen.png" id="5_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://dfuq2cvbws3fn" path="res://Assets/stawrbr.png" id="6_hqns4"]
+[ext_resource type="Script" uid="uid://dg14v6uvwypdn" path="res://firstSrb.cs" id="7_d21ai"]
 
 [node name="Node2D" type="Node2D" unique_id=330939512]
 
@@ -44,4 +45,16 @@ offset_right = 908.0
 offset_bottom = 206.0
 text = "GAMBA!!!"
 
+[node name="Node2D" type="Node2D" parent="." unique_id=1581911664 node_paths=PackedStringArray("TargetNode")]
+script = ExtResource("7_d21ai")
+TargetNode = NodePath("../SlotsA")
+
+[node name="Button" type="Button" parent="Node2D" unique_id=401266793]
+offset_left = 349.0
+offset_top = 156.0
+offset_right = 421.0
+offset_bottom = 228.0
+script = ExtResource("7_d21ai")
+
 [connection signal="pressed" from="Button" to="SlotsA" method="ButtonHandler"]
+[connection signal="pressed" from="Node2D/Button" to="Node2D/Button" method="somethingelse"]

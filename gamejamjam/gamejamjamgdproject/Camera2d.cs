@@ -32,5 +32,6 @@ public partial class Camera2d : Camera2D
     }
 	public void _on_button_2_pressed() {
 			pressed = true;
+        
 	} 
 }
