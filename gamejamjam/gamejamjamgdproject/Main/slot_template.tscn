@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dvhcrue04dgra"]
+
+[ext_resource type="Texture2D" uid="uid://cmr208kpoq4fn" path="res://Main/TheLitchOfTruthAndHonesty.png" id="1_btefl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6uwt5"]
+size = Vector2(10.278767, 20)
+
+[node name="SlotTemplate" type="Node2D" unique_id=1295792071]
+
+[node name="TemplateSlot" type="Node2D" parent="." unique_id=1956982264]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="TemplateSlot" unique_id=1116971895]
+
+[node name="Sprite2D" type="Sprite2D" parent="TemplateSlot/StaticBody2D" unique_id=211310825]
+position = Vector2(-5.2286987, -4.5710735e-07)
+rotation = -3.1415925
+scale = Vector2(0.04415123, -0.6029011)
+texture = ExtResource("1_btefl")
+
+[node name="TemplateSlot" type="CollisionShape2D" parent="TemplateSlot/StaticBody2D" unique_id=2078984808]
+position = Vector2(-5.117127, -4.4735347e-07)
+rotation = -3.1415925
+scale = Vector2(2.7468524, -20.813189)
+shape = SubResource("RectangleShape2D_6uwt5")

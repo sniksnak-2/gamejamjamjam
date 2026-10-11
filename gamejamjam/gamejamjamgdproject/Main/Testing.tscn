@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bnfd0uamwwkfl"]
+
+[ext_resource type="Script" uid="uid://b6135qunwdxg2" path="res://Main/ObjectSpawner.cs" id="1_28q7j"]
+[ext_resource type="PackedScene" uid="uid://074tbi5terxn" path="res://Main/spawnable.tscn" id="2_28q7j"]
+[ext_resource type="Texture2D" uid="uid://cmr208kpoq4fn" path="res://Main/TheLitchOfTruthAndHonesty.png" id="3_lj67a"]
+[ext_resource type="PackedScene" uid="uid://com4cg5404a20" path="res://Main/slot_component.tscn" id="4_1x61k"]
+
+[node name="Testing" type="Node2D" unique_id=229955003]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1962324901]
+position = Vector2(581, 324)
+
+[node name="Fella" type="Node2D" parent="." unique_id=63220902]
+position = Vector2(166.99, 428.665)
+
+[node name="ObjectSpawner" type="Node2D" parent="Fella" unique_id=1653182661 node_paths=PackedStringArray("ObjectsContainer", "LaunchPoint", "Camera")]
+position = Vector2(0.009994507, 0.33499146)
+script = ExtResource("1_28q7j")
+ObjectScene = ExtResource("2_28q7j")
+ObjectsContainer = NodePath("../CurrentObjects")
+LaunchPoint = NodePath("../LaunchPoint")
+Camera = NodePath("../../Camera2D")
+
+[node name="Sprite" type="Sprite2D" parent="Fella" unique_id=623805059]
+scale = Vector2(0.20350507, 0.212627)
+texture = ExtResource("3_lj67a")
+
+[node name="CurrentObjects" type="Node2D" parent="Fella" unique_id=1023376802]
+
+[node name="LaunchPoint" type="Node2D" parent="Fella" unique_id=1236207969]
+
+[node name="Sprite2D" type="Sprite2D" parent="Fella/LaunchPoint" unique_id=687627104]
+position = Vector2(0, -3.9999695)
+scale = Vector2(0.034334764, 0.03265602)
+texture = ExtResource("3_lj67a")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1373826585]
+
+[node name="SlotComponent" parent="Node2D" unique_id=269058038 instance=ExtResource("4_1x61k")]
+position = Vector2(343, 992)
