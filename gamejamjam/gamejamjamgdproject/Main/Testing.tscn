@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://b6135qunwdxg2" path="res://Main/ObjectSpawner.cs" id="1_28q7j"]
 [ext_resource type="PackedScene" uid="uid://074tbi5terxn" path="res://Main/spawnable.tscn" id="2_28q7j"]
 [ext_resource type="Texture2D" uid="uid://cmr208kpoq4fn" path="res://Main/TheLitchOfTruthAndHonesty.png" id="3_lj67a"]
-[ext_resource type="PackedScene" uid="uid://com4cg5404a20" path="res://Main/slot_component.tscn" id="4_1x61k"]
 
 [node name="Testing" type="Node2D" unique_id=229955003]
 
@@ -35,6 +34,3 @@ scale = Vector2(0.034334764, 0.03265602)
 texture = ExtResource("3_lj67a")
 
 [node name="Node2D" type="Node2D" parent="." unique_id=1373826585]
-
-[node name="SlotComponent" parent="Node2D" unique_id=269058038 instance=ExtResource("4_1x61k")]
-position = Vector2(343, 992)

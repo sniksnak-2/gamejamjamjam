@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://bpel5aijchw7e" path="res://Assets/awtermelen.png" id="5_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://dfuq2cvbws3fn" path="res://Assets/stawrbr.png" id="6_hqns4"]
 [ext_resource type="Script" uid="uid://b2p1u0syghv8" path="res://SelectColumnScript.cs" id="7_d21ai"]
+[ext_resource type="PackedScene" uid="uid://com4cg5404a20" path="res://Main/slot_component.tscn" id="8_4d7sh"]
+[ext_resource type="PackedScene" uid="uid://bnfd0uamwwkfl" path="res://Main/Testing.tscn" id="9_ir8iy"]
 
 [node name="Node2D" type="Node2D" unique_id=330939512]
 
@@ -14,27 +16,27 @@
 script = ExtResource("1_kdubu")
 
 [node name="grpaes" type="Sprite2D" parent="SlotsA" unique_id=145232125]
-position = Vector2(716.089, 714.2751)
+position = Vector2(1590.7139, 167.27509)
 scale = Vector2(0.26946843, 0.28175747)
 texture = ExtResource("2_d21ai")
 
 [node name="aple" type="Sprite2D" parent="SlotsA" unique_id=1977911659]
-position = Vector2(431.1875, 733.25)
+position = Vector2(1305.8125, 186.25)
 scale = Vector2(0.2714757, 0.29424787)
 texture = ExtResource("3_rj586")
 
 [node name="banaaa" type="Sprite2D" parent="SlotsA" unique_id=762414766]
-position = Vector2(584.75, 737.51434)
+position = Vector2(1459.375, 190.51434)
 scale = Vector2(0.13827409, 0.2396532)
 texture = ExtResource("4_4d7sh")
 
 [node name="awtermelen" type="Sprite2D" parent="SlotsA" unique_id=800391655]
-position = Vector2(832.2909, 719.98285)
+position = Vector2(1706.9159, 172.98285)
 scale = Vector2(0.22421977, 0.28968948)
 texture = ExtResource("5_ir8iy")
 
 [node name="stawrbr" type="Sprite2D" parent="SlotsA" unique_id=927201503]
-position = Vector2(970.873, 747.0252)
+position = Vector2(1845.4979, 200.0252)
 scale = Vector2(0.3196251, 0.34665006)
 texture = ExtResource("6_hqns4")
 
@@ -84,6 +86,14 @@ offset_right = 1132.0
 offset_bottom = 65.0
 text = "Clear
 "
+
+[node name="Main" type="Node2D" parent="." unique_id=638062910]
+visible = false
+
+[node name="SlotComponent" parent="Main" unique_id=269058038 instance=ExtResource("8_4d7sh")]
+position = Vector2(343, 992)
+
+[node name="Testing" parent="Main" unique_id=229955003 instance=ExtResource("9_ir8iy")]
 
 [connection signal="pressed" from="Button" to="Select Column" method="skfjdhskdfjhskdfjhslkfjhslkfjhsdlkfjhslkfjhslkfjdhslkfjhslfkjh"]
 [connection signal="pressed" from="Select Column/Column 1" to="Select Column" method="Choose1"]

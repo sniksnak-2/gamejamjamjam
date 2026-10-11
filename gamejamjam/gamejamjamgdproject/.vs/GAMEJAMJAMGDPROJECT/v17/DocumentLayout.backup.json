@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\",
+  "WorkspaceRootPath": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\emers\\onedrive\\documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\main\\spawnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:main\\spawnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\main\\slotdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:main\\slotdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\selectcolumnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:selectcolumnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\main\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:main\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\emers\\onedrive\\documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\buttonthataddstolistbutitsacoolscriptnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:buttonthataddstolistbutitsacoolscriptnow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\noahl\\onedrive\\desktop\\games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\coolscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:coolscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +46,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "slotsA.cs",
-              "DocumentMoniker": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
               "RelativeDocumentMoniker": "slotsA.cs",
-              "ToolTip": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
               "RelativeToolTip": "slotsA.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-11T15:10:49.636Z",
+              "WhenOpened": "2026-10-11T15:10:50.113Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectColumnScript.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\SelectColumnScript.cs",
+              "RelativeDocumentMoniker": "SelectColumnScript.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\SelectColumnScript.cs",
+              "RelativeToolTip": "SelectColumnScript.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T21:14:28.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Firstscriptisgoingtoberlygood.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
+              "RelativeDocumentMoniker": "Firstscriptisgoingtoberlygood.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
+              "RelativeToolTip": "Firstscriptisgoingtoberlygood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T21:14:28.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SlotDetection.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Main\\SlotDetection.cs",
+              "RelativeDocumentMoniker": "Main\\SlotDetection.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Main\\SlotDetection.cs",
+              "RelativeToolTip": "Main\\SlotDetection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:08:48.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Main\\ObjectSpawner.cs",
+              "RelativeDocumentMoniker": "Main\\ObjectSpawner.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Main\\ObjectSpawner.cs",
+              "RelativeToolTip": "Main\\ObjectSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:06:18.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Spawnable.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Main\\Spawnable.cs",
+              "RelativeDocumentMoniker": "Main\\Spawnable.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Main\\Spawnable.cs",
+              "RelativeToolTip": "Main\\Spawnable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T20:05:55.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "coolscript.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\coolscript.cs",
+              "RelativeDocumentMoniker": "coolscript.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\coolscript.cs",
+              "RelativeToolTip": "coolscript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T15:36:03.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ButtonThatAddsToListButItsACoolScriptNow.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\ButtonThatAddsToListButItsACoolScriptNow.cs",
+              "RelativeDocumentMoniker": "ButtonThatAddsToListButItsACoolScriptNow.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\ButtonThatAddsToListButItsACoolScriptNow.cs",
+              "RelativeToolTip": "ButtonThatAddsToListButItsACoolScriptNow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T15:15:28.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Camera2d.cs",
-              "DocumentMoniker": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Camera2d.cs",
+              "DocumentMoniker": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Camera2d.cs",
               "RelativeDocumentMoniker": "Camera2d.cs",
-              "ToolTip": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Camera2d.cs",
+              "ToolTip": "C:\\Users\\noahl\\OneDrive\\Desktop\\Games\\gamejamjamjam\\gamejamjam\\gamejamjamgdproject\\Camera2d.cs",
               "RelativeToolTip": "Camera2d.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-10T20:31:02.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-10T20:31:02.798Z"
             }
           ]
         }

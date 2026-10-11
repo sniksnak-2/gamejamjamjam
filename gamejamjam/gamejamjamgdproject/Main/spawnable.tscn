@@ -1,18 +1,45 @@
 [gd_scene format=3 uid="uid://074tbi5terxn"]
 
-[ext_resource type="Texture2D" uid="uid://cmr208kpoq4fn" path="res://Main/TheLitchOfTruthAndHonesty.png" id="1_cxw3f"]
+[ext_resource type="Script" uid="uid://bgta6lqsmvjrm" path="res://Main/Spawnable.cs" id="1_hps1j"]
+[ext_resource type="Texture2D" uid="uid://pvjctd43jprx" path="res://AssetsButGood/bell.png" id="2_unr0r"]
+[ext_resource type="Texture2D" uid="uid://jfqywl45ys5r" path="res://AssetsButGood/cherry.png" id="3_hps1j"]
+[ext_resource type="Texture2D" uid="uid://cicpnfon7ydsn" path="res://AssetsButGood/diamond.png" id="4_pyd1l"]
+[ext_resource type="Texture2D" uid="uid://bl6jmwgt5c0yb" path="res://AssetsButGood/seven.png" id="5_3ygug"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lfwsn"]
 size = Vector2(136.5, 128.5)
 
 [node name="Spawnable" type="Node2D" unique_id=774809429]
+script = ExtResource("1_hps1j")
 
 [node name="RigidBody2D" type="RigidBody2D" parent="." unique_id=819960889]
 gravity_scale = 2.0
 
-[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D" unique_id=1679969964]
-scale = Vector2(0.19098713, 0.18650217)
-texture = ExtResource("1_cxw3f")
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" unique_id=1677549390]
 shape = SubResource("RectangleShape2D_lfwsn")
+
+[node name="sprites" type="Node2D" parent="RigidBody2D" unique_id=993649567]
+
+[node name="first" type="Sprite2D" parent="RigidBody2D/sprites" unique_id=1679969964]
+visible = false
+position = Vector2(0.5000019, 0.99999523)
+scale = Vector2(0.46917814, 0.4129032)
+texture = ExtResource("2_unr0r")
+
+[node name="second" type="Sprite2D" parent="RigidBody2D/sprites" unique_id=1869970252]
+visible = false
+position = Vector2(2.000002, 5.9999957)
+scale = Vector2(0.47284347, 0.38333333)
+texture = ExtResource("3_hps1j")
+
+[node name="third" type="Sprite2D" parent="RigidBody2D/sprites" unique_id=2107592180]
+visible = false
+position = Vector2(-0.5000019, 0.4999962)
+scale = Vector2(0.4397394, 0.516)
+texture = ExtResource("4_pyd1l")
+
+[node name="fourth" type="Sprite2D" parent="RigidBody2D/sprites" unique_id=991315536]
+visible = false
+position = Vector2(-9.500008, 2.000001)
+scale = Vector2(0.5966667, 0.47213116)
+texture = ExtResource("5_3ygug")
